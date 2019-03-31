@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Author" content="Bjorn Emmaneel">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="CSS/master.css">
+</head>
+
+<body>
+  <div class="titel">
+    <h1>Bereken je BMI</h1>
+  </div>
+  <div class="wrapper">
+    <div class="input">
+      <div class="geslachten">
+        <h2>Geslacht</h2>
+        <input type="button" class="button" id="man" value="man">
+        <input type="button" class="button" id="vrouw" value="vrouw">
+      </div>
+      <div class="onderdelen">
+        <div class="onderdeel">
+          <h4>Leeftijd</h4>
+          <input type="number" id="leeftijd" placeholder="typ je leeftijd in" size="12">
+        </div>
+        <div class="onderdeel">
+          <h4>Gewicht(in kg)</h4>
+          <input type="number" id="gewicht" placeholder="typ je gewicht in" size="12">
+        </div>
+        <div class="onderdeel">
+          <h4>Lengte(in cm)</h4>
+          <input type="number" id="lengte" placeholder="typ je lengte  in" size="12">
+        </div>
+      </div>
+    </div>
+    <div>
+      <p id="warning"></p>
+      <input type="button" id="bereken" value="Bereken mijn BMI">
+    </div>
+    <div>
+      <input type="text" id="geslacht">
+    </div>
+    <div>
+      <h2>Conslusie BMI</h2>
+    </div>
+    <div id="conclusie"></div>
+  </div>
+  <script src="Js/script.js"></script>
+  <script src="Js/ajax.js"></script>
+</body>
+
+</html>

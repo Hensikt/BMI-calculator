@@ -1,0 +1,53 @@
+/* Generale CSS */
+body {
+  text-align: center;
+}
+/*----------------------------------------------------------------------------------------------*/
+
+/* Classes CSS */
+.wrapper{
+  border: dotted black 4px;
+  background-color: #F0EEEE;
+  width: 80%;
+  margin: auto;
+}
+.titel {
+  padding: 20px;
+  color: black;
+  background:;
+}
+.onderdelen {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 37em;
+  margin: auto;
+}
+.button {
+  color: black;
+  background-color: silver;
+  border: solid;
+  border-color: grey;
+  border-radius: 15px;
+  height: 40px;
+  width: 150px;
+  font-size: 25px;
+  margin: 0px 5px;
+}
+.conclusie{
+  color: #000;
+}
+/*----------------------------------------------------------------------------------------------*/
+
+/* Id's */
+#geslacht {
+  display: none;
+}
+#bereken {
+  background-color: white;
+  border: solid;
+  border-color: #000;
+  font-size: 20px;
+  height: 30px;
+  padding: 0px 8px;
+  border-radius: 10px;
+}
